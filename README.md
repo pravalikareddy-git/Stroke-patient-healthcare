@@ -7,12 +7,13 @@ cases by gender to reveal insights into stroke distribution. This setup efficien
 exploration and preprocessing in the Python programming language, specifically using the Pandas library for data manipulation and analysis. The main objective is to prepare 
 a dataset for further analysis or machine learning by conducting an initial review of the data, identifying missing values, managing duplicates, and performing basic
 statistical evaluations.
+
 Key actions in the code include:
-###Descriptive Statistics: Uses functions like describe() to summarize numerical and categorical data.
-###Null Value Analysis: Examines the extent and percentage of missing data across columns.
-###Unique Value Exploration: Identifies distinct categories in specific columns to understand categorical distributions.
-###Data Cleaning: Provides options for handling missing values, either by dropping rows or filling missing values with the mean.
-###Duplicate Detection: Checks for duplicate rows to avoid redundant data.
-###Group-Based Analysis: Calculates stroke rates by gender using groupby(), providing insight into demographic patterns within the data.
+Descriptive Statistics: Uses functions like describe() to summarize numerical and categorical data.
+Null Value Analysis: Examines the extent and percentage of missing data across columns.
+Unique Value Exploration: Identifies distinct categories in specific columns to understand categorical distributions.
+Data Cleaning: Provides options for handling missing values, either by dropping rows or filling missing values with the mean.
+Duplicate Detection: Checks for duplicate rows to avoid redundant data.
+Group-Based Analysis: Calculates stroke rates by gender using groupby(), providing insight into demographic patterns within the data.
 The language used in the code is Python, with specific usage of Pandas functions and DataFrame manipulations. The code structure is modular and clean, combining exploration,
 analysis, and data preparation for further processing
